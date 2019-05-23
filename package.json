@@ -1,11 +1,12 @@
 {
   "name": "@gojob/wait-for-assertion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wait for asynchronous testing assertions",
   "repository": "https://github.com/gojob-1337/wait-for-assertion.git",
   "author": "VinceOPS <vincent@gojob.com>",
   "license": "MIT",
   "types": "./dist/wait-for-assertion.d.ts",
+  "main": "./dist/wait-for-assertion.js",
   "scripts": {
     "compile": "./node_modules/.bin/tsc",
     "build": "./node_modules/.bin/tsc -p tsconfig.build.json",

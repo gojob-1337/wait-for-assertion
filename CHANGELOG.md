@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2019-05-23
+
+### Fixed
+
+- Keep TSDoc when compiling to JavaScript 😅
+
 ## [1.0.0] - 2019-05-23
 
 ### Added
