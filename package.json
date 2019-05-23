@@ -1,6 +1,6 @@
 {
   "name": "@gojob/wait-for-assertion",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Wait for asynchronous testing assertions",
   "repository": "https://github.com/gojob-1337/wait-for-assertion.git",
   "author": "VinceOPS <vincent@gojob.com>",
