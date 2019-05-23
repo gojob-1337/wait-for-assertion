@@ -1,0 +1,24 @@
+{
+  "name": "@gojob/wait-for-assertion",
+  "version": "1.0.0",
+  "description": "Wait for asynchronous testing assertions",
+  "repository": "https://github.com/gojob-1337/wait-for-assertion.git",
+  "author": "VinceOPS <vincent@gojob.com>",
+  "license": "MIT",
+  "types": "./dist/wait-for-assertion.d.ts",
+  "scripts": {
+    "compile": "./node_modules/.bin/tsc",
+    "build": "./node_modules/.bin/tsc -p tsconfig.build.json",
+    "test": "./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.2",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  }
+}
