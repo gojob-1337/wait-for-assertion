@@ -8,8 +8,8 @@ import { catchError, first, switchMap, timeout } from 'rxjs/operators';
  * until it stops throwing or until `timeoutDelay` is passed (timeout).
  *
  * @param assertion Closure containing all assertions to be made (calls of `expect()`).
- * @param timeoutDelay How long should the assertion be repeated until it passes (or times out).
- * @param intervalDelay How often should the assertion be repeated during `timeoutDelay`.
+ * @param timeoutDelay How long should the assertion be repeated until it passes (or times out). Default: 1000ms.
+ * @param intervalDelay How often should the assertion be repeated during `timeoutDelay`. Default: 100ms.
  *
  * @return Resolve on success, or reject with a `TimeoutError`.
  *
